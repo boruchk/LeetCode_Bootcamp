@@ -1,0 +1,9 @@
+Two Pointer Approach:
+one pointer at the start of list, one at the end.
+1. swap list[start] <-> list[end].
+2. start++, end--
+
+
+Sliding Window Approach:
+
+
