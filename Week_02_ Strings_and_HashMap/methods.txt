@@ -1,0 +1,65 @@
+Strings:
+concatenate with + or str.join(otherstr)
+split with str.split(<separator>), default is blank char
+  creates an array with the split elements
+multilines are with ''' or """
+convert arr[int] with str(arr)
+
+for index substr in enumerat(str):
+  print(index, '+', substr)
+
+str.isalnum() returns if char is alphanumeric
+str.isalpha() returns if char is letter
+str.isdigit() returns if number
+str.islower()
+str.isupper()
+
+str.lower() convert to lowercase
+str.upper()
+
+str.lstrip([chars]) return copy of str with chars removed
+  default removes whitespaces
+str.replaces(char, char)
+
+
+
+Set:
+similar to dict just without key/val pairs
+ordered
+no duplicates
+O(1) time complexity
+check if x in set also O(1)
+
+newset = {}
+or newset = set()
+newset.add()
+newset.remove()
+
+newset.isdisjoint(otherset) returns if there are no common elements
+
+
+
+Hashmaps:
+like set but with key/pair value
+hmap = {'key', val}
+hmap = dict()
+
+print(hmap['key'])
+print(hmap.get('key', 'not found'))
+
+hmap.pop('key')
+hmap.popitem('specific_key') (returns key and val)
+
+for key in hmap:
+for val in hmap.values()
+for key, val in hmap.items()
+
+sorted(hmap.items()) sorts values
+hmap.update(otherhmap) combines otherhmap to hmap with values that are not in hmap
+
+reversed(hmap.keys())
+reversed(hmap.values())
+reversed(hmap.items())
+
+hmap.setdefault(key, default_value)
+default_value can be an empty list
