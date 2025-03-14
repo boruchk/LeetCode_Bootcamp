@@ -1,0 +1,8 @@
+slow and fast pointer
+slow increment by 1, fast by 2
+
+
+merge sort (linked lists)
+intervals increment by 2s
+since each itteration half the lists are combined with the other half
+  1 -> 2 -> 4 -> 8
