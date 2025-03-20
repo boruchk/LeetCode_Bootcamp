@@ -1,0 +1,27 @@
+BFS Graph traversal
+list containing vistited nodes
+queue containing neighboring nodes of current node
+  dequeu node
+  check neighboring nodes
+  add them to the queue if they are not vistited
+  add curr node to vistited
+
+DFS Graph traversal
+list containing vistited nodes
+stack containing neighboring nodes of current node
+  get last added element
+  check neighboring nodes
+  add them to the stack if they are not vistited
+  add curr node to vistited
+can implement recursively
+
+Khan's algo for
+Topological sort
+n-degree = edges coming into it
+  start with node that has n-degree == 0
+  visit that node (add to visted list)
+  all connected nodes, decrement n-degree of neighboring nodes by one
+  find next node that has n-degree == 0
+  visit that node (add to visted list)
+  continue above
+visted list = top sorted
